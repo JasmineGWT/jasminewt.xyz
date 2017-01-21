@@ -1,0 +1,21 @@
+body {
+  background-color: black;
+  font-family: "Raleway", sans-serif;
+  color: white; }
+
+.titleDiv {
+  width: 100vw;
+  height: 10vh; }
+
+.titleText {
+  margin: 0; }
+
+.contenceDiv {
+  width: 100vw;
+  height: 90vh; }
+
+.aboutMe {
+  height: 22.5 vh;
+  width: 22.5 vw; }
+
+/*# sourceMappingURL=index.css.map */
