@@ -1,11 +1,12 @@
-=index_divs_width_height($amount)
-  height: (90 / $amount)vh
-  width: (90 / $amount)vw
+=index_divs_width_height($h, $w)
+  height: $h
+  width: $w
 
 body
   background-color: black
   font-family: 'Raleway', sans-serif
   color: white
+  text-align: center
 
 .titleDiv
   width: 100vw
@@ -19,4 +20,24 @@ body
   height: 90vh
 
 .aboutMe
-  +index_divs_width_height(4)
+  +index_divs_width_height(45vh, 50vw)
+  float: left
+  margin: 0
+  border-radius: 25px
+  &:hover
+    background-color: grey
+
+.cv
+  +index_divs_width_height(45vh, 50vw)
+  float: right
+  margin: 0
+
+.projects
+  +index_divs_width_height(45vh, 50vw)
+  float: left
+  margin: 0
+
+.contactMe
+  +index_divs_width_height(45vh, 50vw)
+  margin: 0
+  float: right
